@@ -131,7 +131,7 @@ namespace Framework
 
     public class QuicDLL
     {
-        const string MSQUICDLL = "msquic";
+        const string MSQUICDLL = "MsQuic";
 
         [DllImport(MSQUICDLL, CallingConvention = CallingConvention.Cdecl)]
         public static extern void MsQuicInitSet([MarshalAs(UnmanagedType.LPStr)] string RegName, [MarshalAs(UnmanagedType.LPStr)] string AlpnName, UInt64 IdleTimeOutMs, QUIC_TEST tetFunc);

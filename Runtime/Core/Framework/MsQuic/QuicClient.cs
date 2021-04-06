@@ -38,7 +38,7 @@ namespace Framework
         public QuicClient()
         {
             Loom.Initialize();
-            AppFacade.Instance.GetManager<UpdateManager>(ManagerName.Update).AddEvent(Update);
+            //AppFacade.Instance.GetManager<UpdateManager>(ManagerName.Update).AddEvent(Update);
         }
 
         public void SetHostPort(string ip, ushort port)

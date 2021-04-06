@@ -23,6 +23,7 @@ namespace Framework
 
         public void Start()
         {
+            ConnectedToServer("connect");
         }
 
         public void Update()
