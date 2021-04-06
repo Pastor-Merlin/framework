@@ -1,0 +1,24 @@
+{
+  "name": "pastor.merlin.framework",
+  "version": "0.0.0",
+  "displayName": "Framework",
+  "description": "This is an example package",
+  "unity": "2019.4",
+  "keywords": [
+    "toolkits"
+  ],
+  "author": {
+    "name": "Merlin",
+    "email": "lustianshun@gmail.com",
+    "url": ""
+  },
+  "samples": [
+    {
+      "displayName": "Framework",
+      "description": "Framework.",
+      "path": "Samples~/Examples"
+    }
+  ],
+  "type": "tool",
+  "hideInEditor": false
+}

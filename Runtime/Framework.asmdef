@@ -1,0 +1,15 @@
+{
+    "name": "Framework",
+    "references": [
+        "GUID:31bef32b9e4bd4f9892a364bc13e3162"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
