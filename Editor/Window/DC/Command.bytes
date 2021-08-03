@@ -1,0 +1,18 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using PureMVC.Patterns;
+using PureMVC.Interfaces;
+
+namespace _lusNamespace
+{
+    public class _lusClassNameCommand : PureMVC.Patterns.Command.SimpleCommand
+    {
+        public override void Execute(INotification notification)
+        {
+            //notification.Name
+            //notification.Body
+            //notification.Type
+        }
+    }
+}

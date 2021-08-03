@@ -1,0 +1,16 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using PureMVC.Interfaces;
+
+namespace _lusNamespace
+{
+    public class _lusClassNameView : MonoBehaviour
+    {
+        public void Start()
+        {
+
+        }
+    }
+}

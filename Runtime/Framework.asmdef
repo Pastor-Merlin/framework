@@ -1,8 +1,6 @@
 {
     "name": "Framework",
-    "references": [
-        "GUID:31bef32b9e4bd4f9892a364bc13e3162"
-    ],
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

@@ -1,0 +1,31 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using PureMVC.Patterns;
+
+namespace _lusNamespace
+{
+    public class _lusClassNameDataProxy : PureMVC.Patterns.Proxy.Proxy
+    {
+        public new static string NAME = "_lusClassNameData";
+        public _lusClassNameDataModel _lusClassNameData;
+        public _lusClassNameDataProxy(string name)
+            : base(name, null)
+        {
+            _lusClassNameData = new _lusClassNameDataModel();
+        }
+
+        public override void OnRegister()
+        {
+            Debug.Log("_lusClassNameDataProxy OnRegister");
+        }
+
+        /// <summary>
+        /// Called by the Model when the Proxy is removed
+        /// </summary>
+        public override void OnRemove()
+        {
+            Debug.Log("_lusClassNameDataProxy OnRemove");
+        }
+    }
+}

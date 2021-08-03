@@ -1,0 +1,52 @@
+using System.Collections;
+using System.Collections.Generic;
+using PureMVC.Interfaces;
+using UnityEngine;
+
+namespace _lusNamespace
+{
+    public class _lusClassNameMediator : PureMVC.Patterns.Mediator.Mediator
+    {
+        public new const string NAME = "_lusClassNameMediator";
+        _lusClassNameView View;
+        _lusClassNameDataProxy dataProxy;
+
+        public _lusClassNameMediator(object viewComponent) : base(NAME, viewComponent)
+        {
+            View = ((GameObject)ViewComponent).GetComponent<_lusClassNameView>();
+            Debug.Log("panel mediator");
+            dataProxy = Facade.RetrieveProxy(_lusClassNameDataProxy.NAME) as _lusClassNameDataProxy;
+        }
+
+        /// <summary>
+        /// 监听消息
+        /// </summary>
+        /// <param name="notification"></param>
+        public override void HandleNotification(INotification notification)
+        {
+            switch (notification.Name)
+            {
+                
+            }
+        }
+
+        /// <summary>
+        /// 事件监听 
+        /// </summary>
+        /// <returns></returns>
+        public override string[] ListNotificationInterests()
+        {
+            return new string[] {  }; ;
+        }
+
+        public override void OnRegister()
+        {
+
+        }
+
+        public override void OnRemove()
+        {
+
+        }
+    }
+}
